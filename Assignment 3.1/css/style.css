@@ -1,0 +1,194 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+.header {
+    width: 100%;
+    min-height: 25px;
+    background-color: #3A2E22;
+}
+
+.header_left {
+    width: 15%;
+}
+
+.header_left a{
+    color: white;
+}
+
+.header_left a:hover{
+    color: skyblue;
+    transform: scale(1.1);
+}
+
+.header_right {
+    height: 100%;
+    width: 40%;
+}
+
+.nav{
+    
+}
+
+.nav ul{
+    list-style: none;
+}
+
+.nav ul li{
+    
+}
+
+.nav ul li a{
+    color: white;
+    float: left;
+    padding: 1%;
+    margin-right: 7%
+}
+
+.nav ul li a:hover{
+    color: gold;
+    transform: scale(1.2);
+    text-shadow: 2px 2px black;
+}
+
+.main {
+    min-height: 310px;
+    background-color: #3E3224;
+    color: white;
+}
+
+.logo {
+    width: 30%;
+    text-align: center;
+    margin: auto;
+    padding: 2%;
+}
+
+.main_bottom_wrapper{
+    min-height: 150px;
+    width: 100%;
+    background-color: #3B2D24;
+    border-radius: 10px;
+}
+
+.main_bottom {
+    float: left;
+    width: 30%;
+    padding: 1px;
+    padding-top: 20px;
+    margin: 0 17px;
+}
+
+.main_bottom img {
+    height: 60px;
+    width: 60px;
+    float: left;
+    margin: 2%;
+}
+
+.slider {
+    min-height: 300px;
+    background-color: #CC8B31;
+}
+
+.slider_logo {
+    width: 21%;
+    float: left;
+    transform: scale(1.2);
+    background-color: #E5A02B;
+    border-radius: 10px;
+    padding: 2%;
+}
+
+.slider img{
+    height: 150px;
+    width: 80%;
+    padding: 2%;
+}
+
+.section {
+    min-height: 600px;
+    width: 100%;
+}
+
+.section_top{
+    padding-top: 5%;
+    min-height: 300px;
+    background-color: #E8E1D1;
+}
+
+.section_bottom{
+    min-height: 280px;
+    background-color: #EEEADE;
+    
+}
+
+.section img {
+    height: 80px;
+    width: 100px;
+    float: left;
+    padding: 5%;
+}
+
+.section p {
+    padding: 4%;
+}
+
+.section_featured {
+    width: 60%;
+    float: left;
+}
+
+.section_featured_logo {
+    width: 50%;
+    float: left;
+    
+}
+
+.section_news {
+    width: 40%;
+    float: left;
+}
+
+.section_news_date {
+}
+
+.footer {
+    min-height: 40px;
+    background-color: #3F3124;
+}
+
+.footer img{
+    height: 40px;
+    width: auto;
+    float: left;
+    
+}
+
+.footer_left {
+    width: 40%;
+    float: left;
+}
+
+.footer_right {
+    width: 31%;
+    float: right;
+}
