@@ -1,0 +1,329 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+h2 {
+    font-size: 3em;
+    text-align: center;
+    padding: 3% 0;
+}
+
+h3{
+    font-size: 30px;
+}
+
+.container {
+    width: 85em;
+    margin: 0 auto;
+}
+
+.header {
+    min-height: 60px;
+    width: 98em;
+    padding-top: 2em;
+}
+
+.logo {
+    margin-left: 4em;
+}
+
+.nav {
+    width: 40em;
+}
+
+.nav ul {
+    list-style: none;
+}
+
+.nav ul li {
+    float: left;
+    padding: 0em 2em;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: #989898;
+    font-size: 22px;
+}
+
+.nav ul li a:hover {
+    color: black;
+}
+
+.background {
+    min-height: 25em;
+    text-align: center;
+}
+
+.background h2 {
+    padding-top: 2em;
+}
+
+#background {
+    background-image: url(../img/back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 30em;
+}
+
+.back_button {
+    padding-top: 6em;
+}
+
+.back_button button{
+    background-color: black;
+    color: white;
+    min-height: 3em;
+    width: 12em;
+    border-radius: 2em;
+}
+
+.back_button button:hover{
+    background-color: #FFE1BD;
+    color: black;
+}
+
+.section {
+    min-height: 126em;
+    width: 100%;
+}
+
+.section_head {
+    text-align: center;
+}
+
+.section_top {
+    width: 100%;
+    min-height: 560px;
+    float: left;
+    padding: 2% 0%;
+}
+
+.section_middle {
+    width: 100%;
+    min-height: 560px;
+    float: left;
+    padding: 2% 0%;
+}
+
+.section_bottom {
+    width: 100%;
+    min-height: 560px;
+    float: left;
+    padding: 2% 0%;
+}
+
+.section_img {
+    min-height: 560px;
+    width: 48%;
+    float: left;
+}
+
+.section_text {
+    min-height: 250px;
+    width: 48%;
+    float: right;
+    padding: 10% 0%;
+}
+
+.section_button a button {
+    min-height: 3em;
+    width: 7em;
+    border-radius: 2em;
+    background-color: transparent;
+    border: 1px solid gray;
+    margin: 2em 0em;
+}
+
+.section_button a button:hover {
+    background-color: #FFE1BD;
+}
+
+.slider {
+    width: 100%;
+    min-height: 1200px;
+}
+
+.slider_head {
+    padding: 2em 0em;
+}
+
+.left_slider {
+    min-height: 1000px;
+    width: 33%;
+    float: left;
+    margin-left: 50px;
+}
+
+.mid_slider {
+    min-height: 1000px;
+    width: 30%;
+    float: left;
+}
+
+.right_slider {
+    min-height: 1000px;
+    width: 30%;
+    float: left;
+}
+
+.slider_img_sm {
+    padding: 10px 0px;
+}
+
+.slider_img_lrg {
+    padding: 10px 0px;
+}
+
+.slider_button {
+    clear: both;
+    text-align: center;
+    padding: 3em;
+}
+
+.slider_button button{
+    background-color: black;
+    color: white;
+    min-height: 3em;
+    width: 12em;
+    border-radius: 2em;
+    
+}
+
+.slider_button button:hover{
+    background-color: #FFE1BD;
+    color: black;
+}
+
+.team {
+    background-color: #FFE1BD;
+    min-height: 30em;
+    
+}
+
+.team_head {}
+
+.team_img {
+    width: 33%;
+    float: left;
+    text-align: center;
+}
+
+.clients {
+    min-height: 28em;
+}
+
+.clients_head {}
+
+.clients_logo_text {
+    min-height: 180px;
+}
+
+.clients_left_logo {
+    width: 35%;
+    float: left;
+    text-align: right;
+    padding: 0% 2%;
+}
+
+.clients_right_text {
+    width: 50%;
+    float: right;
+    padding-right: 8%;
+}
+
+.clients_bottom_logo {
+    width: 100%;
+}
+
+.clients_logo {
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+
+.info {
+    background-color: black;
+    color: white;
+    min-height: 30em;
+}
+
+.info_head {}
+
+.info_left {
+    width: 50%;
+    float: left;
+}
+
+.info_left p{
+    padding: 4% 0%;
+}
+
+.social_logo {
+    min-height: 50px;
+    width: 50%;
+    text-align: left;
+}
+
+.social_logo i{
+    padding: 4%;
+    margin-right: 6%;
+    background-color: white;
+    color: black;
+    border-radius: 25px;
+}
+
+.info_right {
+    width: 50%;
+    float: left;
+}
+
+.info_right input{
+    padding: 3% 0%;
+    font-size: 20px;
+    width: 70%;
+    background-color: black;
+    border: none;
+    color: white;
+}
+
+.info_right_button {
+    padding: 3% 0%;
+    min-height: 50px;
+    width: 20%;
+}
+
+.info_right_button a{
+    text-decoration: none;
+    width: 100%;
+}
+
+.info_right_button a button{
+    display: block;
+    min-height: 40px;
+    width: 100%;
+    background-color: #FFFFFF;
+    border-radius: 3em;
+    border: none;
+}
+
+.info_right_button a button:hover{
+    background-color: #FFE1BD;
+}
+
+.footer {
+    width: 8%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.copyright {}
