@@ -1,0 +1,308 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    color: #333333;
+}
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    width: 85%;
+    margin: 0 auto;
+}
+
+.container_wrapper{
+    margin: 0 auto;
+    width: 65%;
+}
+
+#dropdown{
+    background-color: #333333;
+    color: #767676;
+    border: none;
+}
+
+.login{
+    height: 50px;
+    width: 100%;
+    background-color: #333333;
+    color: #767676;
+    position: absolute;
+}
+
+.login a:hover{
+    color: white;
+}
+
+.login a{
+    color: #767676;
+}
+
+.left_part{
+    padding-top: 2%;
+}
+
+.left_part p{
+    color: #767676;
+}
+
+.right_part{
+    width: 50%;
+    padding-top: 2%;
+}
+
+.right_part a:last-child{
+    position: relative;
+    bottom: 16px;
+    width: 20%;
+}
+
+.right_part a{
+    width: 20%;
+    min-height: 50px;
+    background-color: transparent;
+    display: block;
+    float: left;
+    margin-left: 10%;
+}
+
+.right_part a button{
+    width: 200%;
+    background-color: #00C8C8;
+    min-height: 50px;
+    color: white;
+    border: none;
+}
+
+.section{
+    background-image: url(../img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 700px;
+    width: 100%;
+}
+
+.logo{
+    
+}
+
+.section_search{
+    padding: 1%;
+    min-height: 20px;
+    width: 15%;
+}
+
+.section_search input{
+    width: 80%;
+}
+
+.section_nav{
+    width: 40%;
+}
+
+.section_nav ul {
+    list-style: none;
+}
+
+.section_nav ul li {
+    float: left;
+    padding: 2%;
+    
+}
+
+.section_nav ul li a{
+    color: #333333;
+}
+
+.section_nav ul li a:hover{
+    color: #00C8C8;
+}
+
+.slider{
+    width: 100%;
+    clear: both;
+    min-height: 1150px;
+    
+}
+
+.slider_nav{
+    width: 100%;
+    overflow: hidden;
+}
+
+.slider_nav ul{
+    list-style: none;
+}
+
+.slider_nav ul li{
+    float: left;
+    padding: 2%;
+}
+
+.slider_nav ul li a{
+    color: #575153;
+}
+
+.slider_nav ul li a:hover{
+    color: #00C8C8;
+}
+
+.small_img{
+    float: left;
+    margin: 1%;
+
+}
+
+.small_img:hover{
+    transform: scale(1.2);
+}
+
+.large_img{
+    float: left;
+    margin: 1%;
+
+}
+
+.large_img:hover{
+    transform: scale(1.2);
+}
+
+.lookbook{
+    min-height: 480px;
+    width: 100%;
+}
+
+.lookbook_wrapper{
+    width: 95%;
+    margin: 0 auto;
+}
+
+.main_lookbook{
+    width: 30.9%;
+    float: left;
+    padding: 1%;
+    margin: 0 auto;
+}
+
+.lookbook_img{
+    width: 50%;
+    float: left;
+}
+
+.lookbook_text{
+    width: 40%;
+    min-height: 220px;
+    float: left;
+    text-align: right;
+    padding-top: 15%;
+}
+
+.lookbook_button{
+    min-height: 50px;
+}
+
+.lookbook_button a{
+    display: block;    
+}
+
+.lookbook_button a button{
+    background-color: transparent;
+    border: 1px solid #333333;
+    min-height: 40px;
+    width: 70%;
+    color: #333333;
+}
+
+.lookbook_button a button:hover{
+    color: white;
+    background-color: #00C8C8;
+}
+
+.top_footer{
+    width: 100%;
+    min-height: 150px;
+}
+
+.top_footer_text{
+    width: 20%;
+    min-height: 150px;
+    float: left;
+}
+
+.top_footer_text p{
+    font-size: 12px;
+}
+
+.top_footer_box{
+    width: 100%;
+    min-height: 200px;
+}
+
+.award_winner{
+    width: 48%;
+    min-height: 180px;
+    float: left;
+    text-align: center;
+    background-color: #333333;
+    color: #FFFFFF;
+    margin-right: 4%;
+}
+
+.award_winner h2{
+    padding-top: 18%;
+}
+
+#white_text{
+    color: #FFFFFF;    
+}
+
+.social_logo{
+    width: 48%;
+    min-height: 180px;
+    float: left;
+    text-align: center;
+    background-color: #00C8C8;
+}
+
+.social_logo i{
+    padding-top: 19%;
+    margin: 0% 5%;
+}
+
+.bottom_footer{
+    background-color: #333333;
+    min-height: 35px;
+    padding-top: 
+}
+
+.bottom_footer p{
+    color: white;
+    font-size: 14px;
+    width: 100%;
+    padding-top: 8px;
+}
+
+.bottom_footer_left{
+    width: 50%;
+    float: left;
+}
+
+.bottom_footer_right{
+    width: 48%;
+    float: right;
+}
+
+.bottom_footer_right p{
+    width: 50%;
+    text-align: right;
+}
