@@ -1,0 +1,343 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.container {
+    width: 70em;
+    margin: 0 auto;
+}
+
+.background {
+    min-height: 600px;
+    width: 100%;
+    background-image: url(../logo/background%20img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.header {
+    width: 100%;
+    min-height: 3em;
+    padding: 1em;
+    border-bottom: 1px solid gray;
+}
+
+.header_nav {
+    width: 50%;
+    text-align: center;
+}
+
+.header_nav ul {
+    list-style: none;
+}
+
+.header_nav ul li {
+    float: left;
+    min-height: 30px;
+    width: 15%;
+    padding-top: 2%;
+}
+
+.header_nav ul li a {
+    text-decoration: none;
+    display: block;
+    color: white;
+}
+
+.header_nav ul li a:hover {
+    color: gold;
+    transform: scale(1.1);
+}
+
+.header_contact {
+    float: right;
+    min-height: 30px;
+    padding: 1%;
+    width: 15%;
+}
+
+.background_wrapper {
+    width: 25%;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 5em;
+}
+
+.background_button {
+    min-height: 30px;
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 10%;
+}
+
+.background_button a {
+    text-decoration: none;
+}
+
+.background_button a button {
+    display: block;
+    min-height: 35px;
+    width: 100%;
+    background-color: #FBAD27;
+    border-radius: 5em;
+}
+
+.section {
+    min-height: 400px;
+}
+
+.section_wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.section_text {
+    min-height: 120px;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.section_part {
+    width: 100%;
+    min-height: 200px;
+}
+
+.part {
+    width: 30%;
+    float: left;
+    margin-left: 25px;
+}
+
+.part i {
+    color: #FCAD28;
+}
+
+.slider {}
+
+.slider_head {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.slider_head a {
+    text-decoration: none;
+    color: black;
+}
+
+.slider_body {
+    width: 100%;
+    min-height: 450px;
+    margin-bottom: 40px;
+}
+
+.slider_img {}
+
+.slider_body img {
+    height: 200px;
+    width: 30%;
+    float: left;
+    padding: 1%;
+}
+
+.news {
+    min-height: 750px;
+}
+
+.news_head {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.news_wrapper {
+    min-height: 600px;
+}
+
+.news img {
+    min-height: 200px;
+    width: 30%;
+}
+
+.news_left {
+    width: 45%;
+    float: left;
+    min-height: 523px;
+    padding: 9px;
+}
+
+.news_mid {
+    width: 25%;
+    float: left;
+    min-height: 523px;
+    padding: 9px;
+}
+
+.news_right {
+    width: 25%;
+    float: left;
+    min-height: 523px;
+    padding: 9px;
+}
+
+.news_lrg_logo {}
+
+.news_text_img {
+    width: 100%;
+}
+
+.news_left_text {
+    width: 50%;
+    float: left;
+    padding-top: 110px;
+}
+
+.news_img_text {
+    width: 100%;
+    min-height: 310px;
+}
+
+.news_bottom_text {
+    width: 100%;
+    padding-top: 210px;
+    margin-bottom: 18px;
+}
+
+.news_lrg_logo img {
+    width: 100%;
+    height: 100%;
+    padding-bottom: 10px;
+}
+
+.news_sm_img img {
+    width: 50%;
+    float: left;
+}
+
+.news_mid img {
+    width: 100%;
+    height: 200px;
+}
+
+.news_right img {
+    width: 100%;
+    height: 200px;
+    padding: 5px;
+    margin-bottom: 18px
+}
+
+.news_button {
+    text-align: center;
+}
+
+.news_button a {
+    display: block;
+}
+
+.news_button a button {
+    min-height: 30px;
+    width: 150px;
+    border-radius: 5em;
+    background-color: #FBAD27;
+    border: none;
+    color: white;
+}
+
+.client {
+    min-height: 300px;
+}
+
+.client_wrapper {
+    width: 50%;
+    min-height: 250px;
+    margin: 0 auto;
+}
+
+.client_head {
+    text-align: center;
+    margin: 50px 0px;
+}
+
+.client_body {
+    min-height: 100px;
+}
+
+.client_img {
+    height: 100px;
+    width: 100px;
+    float: left;
+    margin-right: 30px;
+}
+
+.client_img img {
+    height: 100px;
+    width: 100px;
+}
+
+.discount {
+    min-height: 150px;
+    background-color: #FBAD27;
+    color: white;
+}
+
+.discount_text {
+    min-height: 30px;
+    width: 50%;
+    margin-top: 60px;
+    float: left;
+}
+
+.discount_button {
+    width: 10%;
+    float: right;
+    margin-top: 60px;
+}
+
+.discount_button a {
+    display: block;
+}
+
+.discount_button a button {
+    width: 100%;
+    min-height: 30px;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 5em;
+    color: white;
+}
+
+.footer_top {
+    min-height: 200px;
+    margin-top: 80px;
+}
+
+.footer_text {
+    width: 25%;
+    float: left;
+}
+
+.footer_text i{
+    background-color: #626262;
+    color: white;
+    min-height: 30px;
+    width: 40px;
+    border-radius: 20em;
+    text-align: center;
+    padding-top: 10px
+}
+
+.footer_bottom {
+    min-height: 50px;
+}
+
+.copyright {
+    text-align: center;
+}
